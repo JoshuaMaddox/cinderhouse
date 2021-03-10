@@ -1,0 +1,26 @@
+{
+  "name": "cinderhouse",
+  "version": "1.0.0",
+  "description": "Cinderhouse's landing page and eventual website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "JavaScrip",
+    "CSS",
+    "HTML",
+    "Cinderhouse",
+    "Joshua",
+    "Maddox",
+    "Richard",
+    "Mands"
+  ],
+  "author": "Joshua Maddox",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
