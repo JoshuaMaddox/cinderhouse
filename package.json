@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [
     "JavaScrip",
@@ -21,6 +22,10 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
   }
 }
