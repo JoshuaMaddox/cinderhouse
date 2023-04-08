@@ -248,15 +248,20 @@ h6,
 ///////////////////////////////////////////////*/
 
 .ch-aside-wrapper {
-  height: 5em;
+  min-height: 5em;
   background: #fff;
   color: #191e25;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .ch-aside {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   height: 100%;
 }
@@ -266,6 +271,7 @@ h6,
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  line-height: 1.2;
 }
 .ch-aside-button {
   border: none;
@@ -286,6 +292,9 @@ h6,
   .ch-section-one {
     flex-direction: row;
   }
+  .ch-aside-wrapper {
+    padding: 0.5rem;
+  }
 
   p,
   .ch-section-two p,
@@ -305,6 +314,10 @@ h6,
 @media (min-width: 750px) {
   .ch-bio__wrapper {
     flex-direction: row;
+  }
+
+  .ch-aside {
+    width: 70%;
   }
 
   .ch-bio__img {
